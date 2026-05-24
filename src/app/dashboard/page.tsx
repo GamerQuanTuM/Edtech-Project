@@ -261,16 +261,16 @@ export default function DashboardPage() {
 
                   {/* Stats */}
                   <div className="flex items-center gap-4 text-xs text-zinc-500">
-                    <span className="flex items-center gap-1">
+                    <span className="flex items-center gap-1 shrink-0">
                       <BookOpen className="w-3.5 h-3.5" />
                       {pathway.modules.length} modules
                     </span>
-                    <span className="flex items-center gap-1">
-                      <Clock className="w-3.5 h-3.5" />
-                      {pathway.duration}
+                    <span className="flex items-center gap-1 truncate">
+                      <Clock className="w-3.5 h-3.5 shrink-0" />
+                      <span className="truncate">{pathway.duration}</span>
                     </span>
                     {pathway.isPublic && pathway.cloneCount > 0 && (
-                      <span className="flex items-center gap-1 text-cyan-400 font-medium">
+                      <span className="flex items-center gap-1 text-cyan-400 font-medium shrink-0">
                         <Globe className="w-3.5 h-3.5" />
                         {pathway.cloneCount} students
                       </span>

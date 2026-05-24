@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, use } from "react";
+import { useState, useEffect, useRef, useCallback, use } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -72,6 +72,34 @@ export default function PathwayPage({
   const [isSavingQuiz, setIsSavingQuiz] = useState(false);
   const [editingQuestionIdx, setEditingQuestionIdx] = useState<number | null>(null);
   const [editingQuestionDraft, setEditingQuestionDraft] = useState<QuizQuestion | null>(null);
+
+  // Resizable sidebar
+  const [sidebarWidth, setSidebarWidth] = useState(320);
+  const isResizing = useRef(false);
+
+  const handleMouseDown = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    isResizing.current = true;
+    document.body.style.cursor = "col-resize";
+    document.body.style.userSelect = "none";
+
+    const onMouseMove = (ev: MouseEvent) => {
+      if (!isResizing.current) return;
+      const newWidth = Math.min(Math.max(ev.clientX, 240), 600);
+      setSidebarWidth(newWidth);
+    };
+
+    const onMouseUp = () => {
+      isResizing.current = false;
+      document.body.style.cursor = "";
+      document.body.style.userSelect = "";
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mouseup", onMouseUp);
+    };
+
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mouseup", onMouseUp);
+  }, []);
 
   useEffect(() => {
     fetchPathway();
@@ -430,15 +458,18 @@ export default function PathwayPage({
       )}
 
       <div className="flex flex-1 overflow-hidden">
-        {/* Left sidebar — Module Navigator */}
-        <aside className="w-72 lg:w-80 shrink-0 border-r border-zinc-800/50 overflow-y-auto hidden md:block">
+        {/* Left sidebar — Module Navigator (resizable) */}
+        <aside
+          className="shrink-0 border-r border-zinc-800/50 overflow-y-auto hidden md:block relative"
+          style={{ width: `${sidebarWidth}px` }}
+        >
           <div className="p-4">
             <div className="mb-4 p-4 glass rounded-xl border border-zinc-800">
               <h2 className="text-xs font-semibold text-zinc-400 uppercase tracking-wider mb-1">Goal</h2>
               <p className="text-sm text-white leading-snug">{pathway.goal}</p>
               <div className="flex items-center gap-3 mt-3 text-xs text-zinc-500">
-                <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{pathway.duration}</span>
-                <span className="flex items-center gap-1"><BookOpen className="w-3 h-3" />{pathway.modules.length} modules</span>
+                <span className="flex items-center gap-1 truncate"><Clock className="w-3 h-3 shrink-0" /><span className="truncate">{pathway.duration}</span></span>
+                <span className="flex items-center gap-1 shrink-0"><BookOpen className="w-3 h-3" />{pathway.modules.length} modules</span>
               </div>
             </div>
 
@@ -536,6 +567,11 @@ export default function PathwayPage({
               })}
             </div>
           </div>
+          {/* Resize handle */}
+          <div
+            onMouseDown={handleMouseDown}
+            className="absolute top-0 right-0 w-1.5 h-full cursor-col-resize hover:bg-violet-500/40 active:bg-violet-500/60 transition-colors z-10"
+          />
         </aside>
 
         {/* Main Content Area */}

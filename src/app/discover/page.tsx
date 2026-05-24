@@ -184,8 +184,8 @@ export default function DiscoverPage() {
                       {pathway.difficulty}
                     </span>
                     {pathway.cloneCount > 0 && (
-                      <span className="inline-block text-[10px] font-bold px-2 py-0.5 rounded border border-cyan-500/20 bg-cyan-500/10 text-cyan-400 uppercase tracking-wider flex items-center gap-1">
-                        <User className="w-3 h-3" /> {pathway.cloneCount} Enrolled
+                      <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded border border-cyan-500/20 bg-cyan-500/10 text-cyan-400 uppercase tracking-wider whitespace-nowrap">
+                        <User className="w-3 h-3 shrink-0" /> {pathway.cloneCount} Enrolled
                       </span>
                     )}
                   </div>
@@ -200,13 +200,13 @@ export default function DiscoverPage() {
 
                 {/* Meta stats */}
                 <div className="flex items-center gap-4 text-xs text-zinc-500 py-3 border-t border-zinc-800/50">
-                  <span className="flex items-center gap-1.5">
+                  <span className="flex items-center gap-1.5 shrink-0">
                     <BookOpen className="w-4 h-4 text-violet-400" />
                     {pathway.moduleCount} modules
                   </span>
-                  <span className="flex items-center gap-1.5">
-                    <Clock className="w-4 h-4 text-cyan-400" />
-                    {pathway.duration}
+                  <span className="flex items-center gap-1.5 truncate">
+                    <Clock className="w-4 h-4 text-cyan-400 shrink-0" />
+                    <span className="truncate">{pathway.duration}</span>
                   </span>
                 </div>
 
