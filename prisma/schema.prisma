@@ -1,0 +1,111 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  STUDENT
+  EDUCATOR
+}
+
+enum NodeStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}
+
+model User {
+  id           String        @id @default(uuid())
+  email        String        @unique
+  name         String
+  passwordHash String
+  role         Role          @default(STUDENT)
+  pathways     Pathway[]     @relation("CreatedPathways")
+  quizAttempts QuizAttempt[]
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  @@map("users")
+}
+
+model Pathway {
+  id          String   @id @default(uuid())
+  title       String
+  description String
+  goal        String
+  difficulty  String
+  duration    String
+  isPublic          Boolean  @default(false)
+  originalPathwayId String?
+  creatorId         String
+  creator     User     @relation("CreatedPathways", fields: [creatorId], references: [id], onDelete: Cascade)
+  modules     Module[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("pathways")
+}
+
+model Module {
+  id          String       @id @default(uuid())
+  title       String
+  description String
+  orderIndex  Int
+  status      NodeStatus   @default(NOT_STARTED)
+  pathwayId   String
+  pathway     Pathway      @relation(fields: [pathwayId], references: [id], onDelete: Cascade)
+  nodes       ModuleNode[]
+  quiz        Quiz?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  @@map("modules")
+}
+
+model ModuleNode {
+  id              String     @id @default(uuid())
+  title           String
+  summary         String
+  durationMinutes Int        @default(45)
+  status          NodeStatus @default(NOT_STARTED)
+  resources       Json       @default("[]")
+  studyNotes      String     @default("")
+  moduleId        String
+  module          Module     @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  @@map("module_nodes")
+}
+
+model Quiz {
+  id        String        @id @default(uuid())
+  title     String
+  questions Json
+  moduleId  String        @unique
+  module    Module        @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  attempts  QuizAttempt[]
+  createdAt DateTime      @default(now())
+
+  @@map("quizzes")
+}
+
+model QuizAttempt {
+  id        String   @id @default(uuid())
+  score     Int
+  feedback  String
+  answers   Json
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quizId    String
+  quiz      Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@map("quiz_attempts")
+}
