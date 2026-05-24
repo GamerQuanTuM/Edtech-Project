@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
-  Brain, ArrowLeft, BookOpen, Clock, Globe, Loader2, Sparkles, User, ChevronRight, Copy, Search
+  ArrowLeft, BookOpen, Clock, Globe, Loader2, Sparkles, User, ChevronRight, Copy, Search
 } from "lucide-react";
 
 interface PublicPathway {
@@ -79,7 +79,7 @@ export default function DiscoverPage() {
   async function handleEnroll(e: React.MouseEvent, id: string) {
     e.preventDefault();
     if (cloningId) return;
-    
+
     setCloningId(id);
     try {
       const res = await fetch(`/api/pathways/${id}/clone`, { method: "POST" });

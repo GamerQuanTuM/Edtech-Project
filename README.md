@@ -13,9 +13,12 @@ A **production-grade full-stack application** built for the House of Edtech Full
 |---|---|
 | 🤖 **LangGraph AI Pipeline** | Stateful 2-node graph (Planner → Validator) generates validated learning syllabuses using Google Gemini, OpenAI, or Groq |
 | 🔒 **Secure Auth** | Custom JWT credentials auth with bcrypt hashing, HttpOnly session cookies, and Next.js Edge Middleware route protection |
+| 👥 **Role-Based System** | Educator and Student roles with distinct dashboards, analytics, and capabilities |
 | 📚 **Nested CRUD** | Full relational hierarchy: User → Pathway → Module → Node, with cascading ownership-checked operations |
 | 📝 **Study Journal** | Per-node auto-saving markdown study notes editor with progress status tracking |
 | ⚡ **AI Quizzes** | Per-module dynamic 5-question MCQ generation with instant scoring and per-question explanations |
+| 🌐 **Discover Catalog** | Public marketplace where educators publish pathways and students can browse, search, and enroll |
+| 📊 **Role-Aware Analytics** | Student analytics (progress, streaks, quiz scores) and Educator analytics (enrollments, student engagement, score distribution) |
 | 🎨 **Glassmorphic UI** | Premium dark mode UI with micro-animations, shimmer skeletons, and responsive layout |
 | 📖 **Swagger API Docs** | Interactive OpenAPI 3.0 documentation at `/api-docs` |
 
@@ -99,23 +102,45 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
+## 👥 Role System
+
+### Educator
+- Create and manage AI-generated learning pathways
+- Publish pathways to the public Discover catalog
+- Edit quiz questions, manage resources
+- View analytics: enrollments, student quiz performance, score distribution
+
+### Student
+- Generate personal AI learning pathways
+- Browse and enroll in published educator pathways via Discover
+- Track progress per node with status (Not Started → In Progress → Completed)
+- Take quizzes, write study notes
+- View analytics: progress, streaks, quiz history, difficulty spread
+
+---
+
 ## 📖 API Reference
 
 Interactive Swagger docs available at **`/api-docs`** when the app is running.
 
 | Method | Endpoint | Description |
 |---|---|---|
-| POST | `/api/auth/register` | Register new user |
+| POST | `/api/auth/register` | Register new user (STUDENT or EDUCATOR role) |
 | POST | `/api/auth/login` | Login & set session cookie |
 | POST | `/api/auth/logout` | Clear session |
+| GET | `/api/auth/me` | Get current authenticated user info |
 | GET | `/api/pathways` | List user's pathways |
 | POST | `/api/pathways` | **Generate AI pathway** via LangGraph |
 | GET | `/api/pathways/:id` | Get full pathway with modules & nodes |
 | PATCH | `/api/pathways/:id` | Update pathway metadata |
-| DELETE | `/api/pathways/:id` | Delete pathway |
+| DELETE | `/api/pathways/:id` | Delete pathway (cascading) |
+| POST | `/api/pathways/:id/publish` | Toggle pathway publish status (Educator) |
+| POST | `/api/pathways/:id/clone` | Enroll in a published pathway (Student) |
 | PATCH | `/api/pathways/nodes/:id` | Update node notes/status |
 | POST | `/api/ai/quiz` | Generate AI quiz for a module |
 | PUT | `/api/ai/quiz` | Submit & score quiz answers |
+| GET | `/api/discover` | Browse public pathway catalog (with search) |
+| GET | `/api/analytics` | Role-aware analytics data (Student or Educator) |
 | GET | `/api/openapi` | Raw OpenAPI 3.0 JSON spec |
 
 ---
@@ -143,6 +168,8 @@ Start
 
 The **Planner Node** generates a structured JSON syllabus using LangChain's `withStructuredOutput` + Zod schema validation. The **Validator Node** checks structural integrity (module count, node resources, etc.) and routes back to Planner for up to 3 auto-correction cycles before accepting.
 
+**Difficulty Assessment**: The AI automatically classifies each pathway as Beginner, Intermediate, or Advanced based on the learning goal complexity and user's stated background.
+
 ---
 
 ## 📂 Project Structure
@@ -151,11 +178,15 @@ The **Planner Node** generates a structured JSON syllabus using LangChain's `wit
 src/
 ├── app/
 │   ├── api/
-│   │   ├── auth/          # register, login, logout
-│   │   ├── pathways/      # CRUD + LangGraph generation
+│   │   ├── auth/          # register, login, logout, me
+│   │   ├── pathways/      # CRUD + LangGraph generation + publish + clone
 │   │   ├── ai/quiz/       # AI quiz generation & scoring
+│   │   ├── analytics/     # Role-aware analytics endpoint
+│   │   ├── discover/      # Public pathway catalog
 │   │   └── openapi/       # OpenAPI 3.0 spec
+│   ├── analytics/         # Analytics dashboard (Student & Educator views)
 │   ├── dashboard/         # Main pathway list page
+│   ├── discover/          # Public pathway catalog UI
 │   ├── pathways/[id]/     # Visual pathway studio
 │   ├── login/ & register/ # Auth pages
 │   ├── api-docs/          # Swagger UI page
@@ -167,7 +198,7 @@ src/
 │   ├── auth-utils.ts      # JWT, bcrypt, cookie helpers
 │   ├── ai-utils.ts        # LLM loader + Zod schemas
 │   └── pathway-graph.ts   # LangGraph state machine
-├── middleware.ts           # Edge route protection
+├── proxy.ts               # Auth middleware (JWT verification + header injection)
 └── types/index.ts          # Shared TypeScript types
 prisma/
 ├── schema.prisma           # Data models
@@ -211,6 +242,7 @@ Add to `.github/workflows/deploy.yml`:
 - **Zod validation** — All API inputs validated before hitting the database
 - **Ownership checks** — Every mutation verifies the requesting user owns the resource
 - **Edge Middleware** — Route protection runs at the Edge (before server computation)
+- **Role-based access** — Educator-only actions (publish, quiz management) are server-validated
 
 ---
 

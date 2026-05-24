@@ -1,0 +1,40 @@
+{
+  "files": {
+    "code": [
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\proxy.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\layout.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\loading.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\not-found.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\page.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\ai\\quiz\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\auth\\login\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\auth\\logout\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\auth\\me\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\auth\\register\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\discover\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\openapi\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\pathways\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\pathways\\nodes\\[id]\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\pathways\\[id]\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\pathways\\[id]\\clone\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api\\pathways\\[id]\\publish\\route.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\api-docs\\page.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\dashboard\\page.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\discover\\page.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\login\\page.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\pathways\\[id]\\page.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\app\\register\\page.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\components\\auth-form.tsx",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\lib\\ai-utils.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\lib\\auth-utils.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\lib\\db.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\lib\\pathway-graph.ts",
+      "D:\\Technical\\JavaScript\\Typescript\\Submission\\EdTech\\src\\types\\index.ts"
+    ],
+    "document": [],
+    "paper": [],
+    "image": [],
+    "video": []
+  },
+  "timestamp": "2026-05-24T15:22:05.724232+00:00"
+}

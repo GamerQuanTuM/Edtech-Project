@@ -126,6 +126,10 @@ export default function DashboardPage() {
           <span className="font-bold tracking-tight gradient-text hidden sm:block">Aegis-AI</span>
         </Link>
         <div className="flex items-center gap-2">
+          <Link href="/analytics" className="flex items-center gap-1.5 text-sm text-zinc-400 hover:text-white transition-colors px-3 py-1.5 rounded-lg hover:bg-zinc-800/50">
+            <BarChart3 className="w-4 h-4" />
+            <span className="hidden sm:inline">Analytics</span>
+          </Link>
           <Link href="/api-docs" className="text-sm text-zinc-400 hover:text-white transition-colors px-3 py-1.5 rounded-lg hover:bg-zinc-800/50">
             API Docs
           </Link>
@@ -273,22 +277,24 @@ export default function DashboardPage() {
                     )}
                   </div>
 
-                  {/* Progress Bar */}
-                  <div>
-                    <div className="flex justify-between text-xs text-zinc-500 mb-1.5">
-                      <span className="flex items-center gap-1">
-                        <BarChart3 className="w-3 h-3" />
-                        Progress
-                      </span>
-                      <span>{completedNodes}/{totalNodes} topics</span>
+                  {/* Progress Bar (students only) */}
+                  {userRole !== "EDUCATOR" && (
+                    <div>
+                      <div className="flex justify-between text-xs text-zinc-500 mb-1.5">
+                        <span className="flex items-center gap-1">
+                          <BarChart3 className="w-3 h-3" />
+                          Progress
+                        </span>
+                        <span>{completedNodes}/{totalNodes} topics</span>
+                      </div>
+                      <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-linear-to-r from-violet-500 to-cyan-500 rounded-full transition-all duration-500"
+                          style={{ width: `${progress}%` }}
+                        />
+                      </div>
                     </div>
-                    <div className="h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-                      <div
-                        className="h-full bg-linear-to-r from-violet-500 to-cyan-500 rounded-full transition-all duration-500"
-                        style={{ width: `${progress}%` }}
-                      />
-                    </div>
-                  </div>
+                  )}
                 </Link>
               );
             })}

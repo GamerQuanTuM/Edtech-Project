@@ -58,6 +58,10 @@ ${
 }
 
 Requirements:
+- Set the difficulty field based on the learning goal and user background:
+  • "Beginner" if the topic is introductory or the user has no prior experience
+  • "Intermediate" if the user has some background and the goal involves moderate depth
+  • "Advanced" if the goal involves expert-level, specialized, or highly technical content
 - Create 3-8 progressive modules that build on each other logically
 - Each module should have 2-6 focused learning nodes
 - Include real, working resource URLs (prefer YouTube, official docs, MDN, freeCodeCamp, etc.)

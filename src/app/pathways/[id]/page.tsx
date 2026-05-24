@@ -390,15 +390,17 @@ export default function PathwayPage({
               {pathway.isPublic ? "Make Private" : "Publish to Catalog"}
             </button>
           )}
-          <div className="hidden md:flex items-center gap-3">
-            <span>{overallProgress}% complete</span>
-            <div className="w-24 h-1.5 bg-zinc-800 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-linear-to-r from-violet-500 to-cyan-500 rounded-full transition-all duration-500"
-                style={{ width: `${overallProgress}%` }}
-              />
+          {userRole !== "EDUCATOR" && (
+            <div className="hidden md:flex items-center gap-3">
+              <span>{overallProgress}% complete</span>
+              <div className="w-24 h-1.5 bg-zinc-800 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-linear-to-r from-violet-500 to-cyan-500 rounded-full transition-all duration-500"
+                  style={{ width: `${overallProgress}%` }}
+                />
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </nav>
 

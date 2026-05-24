@@ -1,0 +1,3120 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "proxy.ts",
+      "file_type": "code",
+      "source_file": "proxy.ts",
+      "source_location": "L1",
+      "id": "proxy_ts",
+      "community": 1,
+      "norm_label": "proxy.ts"
+    },
+    {
+      "label": "PUBLIC_ROUTES",
+      "file_type": "code",
+      "source_file": "proxy.ts",
+      "source_location": "L5",
+      "id": "src_proxy_public_routes",
+      "community": 1,
+      "norm_label": "public_routes"
+    },
+    {
+      "label": "API_DOCS_ROUTES",
+      "file_type": "code",
+      "source_file": "proxy.ts",
+      "source_location": "L6",
+      "id": "src_proxy_api_docs_routes",
+      "community": 1,
+      "norm_label": "api_docs_routes"
+    },
+    {
+      "label": "proxy()",
+      "file_type": "code",
+      "source_file": "proxy.ts",
+      "source_location": "L8",
+      "id": "src_proxy_proxy",
+      "community": 1,
+      "norm_label": "proxy()"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "proxy.ts",
+      "source_location": "L73",
+      "id": "src_proxy_config",
+      "community": 1,
+      "norm_label": "config"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "id": "app_layout_tsx",
+      "community": 9,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "inter",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L5",
+      "id": "app_layout_inter",
+      "community": 9,
+      "norm_label": "inter"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L11",
+      "id": "app_layout_metadata",
+      "community": 9,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L27",
+      "id": "app_layout_rootlayout",
+      "community": 9,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "loading.tsx",
+      "file_type": "code",
+      "source_file": "app/loading.tsx",
+      "source_location": "L1",
+      "id": "app_loading_tsx",
+      "community": 15,
+      "norm_label": "loading.tsx"
+    },
+    {
+      "label": "Loading()",
+      "file_type": "code",
+      "source_file": "app/loading.tsx",
+      "source_location": "L3",
+      "id": "app_loading_loading",
+      "community": 15,
+      "norm_label": "loading()"
+    },
+    {
+      "label": "not-found.tsx",
+      "file_type": "code",
+      "source_file": "app/not-found.tsx",
+      "source_location": "L1",
+      "id": "app_not_found_tsx",
+      "community": 16,
+      "norm_label": "not-found.tsx"
+    },
+    {
+      "label": "NotFound()",
+      "file_type": "code",
+      "source_file": "app/not-found.tsx",
+      "source_location": "L4",
+      "id": "app_not_found_notfound",
+      "community": 16,
+      "norm_label": "notfound()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L1",
+      "id": "app_page_tsx",
+      "community": 10,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "LandingPage()",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "id": "app_page_landingpage",
+      "community": 10,
+      "norm_label": "landingpage()"
+    },
+    {
+      "label": "features",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L148",
+      "id": "app_page_features",
+      "community": 10,
+      "norm_label": "features"
+    },
+    {
+      "label": "steps",
+      "file_type": "code",
+      "source_file": "app/page.tsx",
+      "source_location": "L169",
+      "id": "app_page_steps",
+      "community": 10,
+      "norm_label": "steps"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L1",
+      "id": "app_analytics_page_tsx",
+      "community": 3,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "StudentOverview",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L15",
+      "id": "analytics_page_studentoverview",
+      "community": 3,
+      "norm_label": "studentoverview"
+    },
+    {
+      "label": "PathwayProgress",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L28",
+      "id": "analytics_page_pathwayprogress",
+      "community": 3,
+      "norm_label": "pathwayprogress"
+    },
+    {
+      "label": "QuizAttemptEntry",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L38",
+      "id": "analytics_page_quizattemptentry",
+      "community": 3,
+      "norm_label": "quizattemptentry"
+    },
+    {
+      "label": "StudentAnalytics",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L44",
+      "id": "analytics_page_studentanalytics",
+      "community": 3,
+      "norm_label": "studentanalytics"
+    },
+    {
+      "label": "EducatorOverview",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L52",
+      "id": "analytics_page_educatoroverview",
+      "community": 3,
+      "norm_label": "educatoroverview"
+    },
+    {
+      "label": "PathwayStat",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L63",
+      "id": "analytics_page_pathwaystat",
+      "community": 3,
+      "norm_label": "pathwaystat"
+    },
+    {
+      "label": "EducatorAnalytics",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L77",
+      "id": "analytics_page_educatoranalytics",
+      "community": 3,
+      "norm_label": "educatoranalytics"
+    },
+    {
+      "label": "AnalyticsData",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L86",
+      "id": "analytics_page_analyticsdata",
+      "community": 3,
+      "norm_label": "analyticsdata"
+    },
+    {
+      "label": "difficultyColor",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L90",
+      "id": "analytics_page_difficultycolor",
+      "community": 3,
+      "norm_label": "difficultycolor"
+    },
+    {
+      "label": "StatCard()",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L97",
+      "id": "analytics_page_statcard",
+      "community": 3,
+      "norm_label": "statcard()"
+    },
+    {
+      "label": "ProgressBar()",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L134",
+      "id": "analytics_page_progressbar",
+      "community": 3,
+      "norm_label": "progressbar()"
+    },
+    {
+      "label": "ScoreBar()",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L145",
+      "id": "analytics_page_scorebar",
+      "community": 3,
+      "norm_label": "scorebar()"
+    },
+    {
+      "label": "AnalyticsPage()",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L163",
+      "id": "analytics_page_analyticspage",
+      "community": 3,
+      "norm_label": "analyticspage()"
+    },
+    {
+      "label": "StudentDashboard()",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L236",
+      "id": "analytics_page_studentdashboard",
+      "community": 3,
+      "norm_label": "studentdashboard()"
+    },
+    {
+      "label": "EducatorDashboard()",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L401",
+      "id": "analytics_page_educatordashboard",
+      "community": 3,
+      "norm_label": "educatordashboard()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L1",
+      "id": "app_api_ai_quiz_route_ts",
+      "community": 7,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "GenerateQuizSchema",
+      "file_type": "code",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L6",
+      "id": "quiz_route_generatequizschema",
+      "community": 7,
+      "norm_label": "generatequizschema"
+    },
+    {
+      "label": "EvaluateQuizSchema",
+      "file_type": "code",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L10",
+      "id": "quiz_route_evaluatequizschema",
+      "community": 7,
+      "norm_label": "evaluatequizschema"
+    },
+    {
+      "label": "UpdateQuizSchema",
+      "file_type": "code",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L15",
+      "id": "quiz_route_updatequizschema",
+      "community": 7,
+      "norm_label": "updatequizschema"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L51",
+      "id": "quiz_route_post",
+      "community": 7,
+      "norm_label": "post()"
+    },
+    {
+      "label": "PUT()",
+      "file_type": "code",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L137",
+      "id": "quiz_route_put",
+      "community": 7,
+      "norm_label": "put()"
+    },
+    {
+      "label": "PATCH()",
+      "file_type": "code",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L200",
+      "id": "quiz_route_patch",
+      "community": 7,
+      "norm_label": "patch()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L1",
+      "id": "app_api_analytics_route_ts",
+      "community": 0,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L16",
+      "id": "analytics_route_get",
+      "community": 0,
+      "norm_label": "get()"
+    },
+    {
+      "label": "getStudentAnalytics()",
+      "file_type": "code",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L29",
+      "id": "analytics_route_getstudentanalytics",
+      "community": 0,
+      "norm_label": "getstudentanalytics()"
+    },
+    {
+      "label": "getEducatorAnalytics()",
+      "file_type": "code",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L160",
+      "id": "analytics_route_geteducatoranalytics",
+      "community": 0,
+      "norm_label": "geteducatoranalytics()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L1",
+      "id": "app_api_auth_login_route_ts",
+      "community": 1,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "LoginSchema",
+      "file_type": "code",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L9",
+      "id": "login_route_loginschema",
+      "community": 1,
+      "norm_label": "loginschema"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L46",
+      "id": "login_route_post",
+      "community": 1,
+      "norm_label": "post()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L1",
+      "id": "app_api_auth_logout_route_ts",
+      "community": 11,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L14",
+      "id": "logout_route_post",
+      "community": 11,
+      "norm_label": "post()"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L32",
+      "id": "logout_route_get",
+      "community": 11,
+      "norm_label": "get()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/me/route.ts",
+      "source_location": "L1",
+      "id": "app_api_auth_me_route_ts",
+      "community": 0,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/auth/me/route.ts",
+      "source_location": "L4",
+      "id": "me_route_get",
+      "community": 0,
+      "norm_label": "get()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L1",
+      "id": "app_api_auth_register_route_ts",
+      "community": 1,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "RegisterSchema",
+      "file_type": "code",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L9",
+      "id": "register_route_registerschema",
+      "community": 1,
+      "norm_label": "registerschema"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L70",
+      "id": "register_route_post",
+      "community": 1,
+      "norm_label": "post()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/discover/route.ts",
+      "source_location": "L1",
+      "id": "app_api_discover_route_ts",
+      "community": 0,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/discover/route.ts",
+      "source_location": "L4",
+      "id": "discover_route_get",
+      "community": 0,
+      "norm_label": "get()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/openapi/route.ts",
+      "source_location": "L1",
+      "id": "app_api_openapi_route_ts",
+      "community": 12,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "openApiSpec",
+      "file_type": "code",
+      "source_file": "app/api/openapi/route.ts",
+      "source_location": "L3",
+      "id": "openapi_route_openapispec",
+      "community": 12,
+      "norm_label": "openapispec"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/openapi/route.ts",
+      "source_location": "L288",
+      "id": "openapi_route_get",
+      "community": 12,
+      "norm_label": "get()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L1",
+      "id": "app_api_pathways_route_ts",
+      "community": 2,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "CreatePathwaySchema",
+      "file_type": "code",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L6",
+      "id": "pathways_route_createpathwayschema",
+      "community": 2,
+      "norm_label": "createpathwayschema"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L51",
+      "id": "pathways_route_get",
+      "community": 2,
+      "norm_label": "get()"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L86",
+      "id": "pathways_route_post",
+      "community": 2,
+      "norm_label": "post()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/pathways/nodes/[id]/route.ts",
+      "source_location": "L1",
+      "id": "app_api_pathways_nodes_id_route_ts",
+      "community": 0,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "UpdateNodeSchema",
+      "file_type": "code",
+      "source_file": "app/api/pathways/nodes/[id]/route.ts",
+      "source_location": "L5",
+      "id": "id_route_updatenodeschema",
+      "community": 0,
+      "norm_label": "updatenodeschema"
+    },
+    {
+      "label": "PATCH()",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L110",
+      "id": "id_route_patch",
+      "community": 0,
+      "norm_label": "patch()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L1",
+      "id": "app_api_pathways_id_route_ts",
+      "community": 0,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "UpdatePathwaySchema",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L5",
+      "id": "id_route_updatepathwayschema",
+      "community": 0,
+      "norm_label": "updatepathwayschema"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L61",
+      "id": "id_route_get",
+      "community": 0,
+      "norm_label": "get()"
+    },
+    {
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L141",
+      "id": "id_route_delete",
+      "community": 0,
+      "norm_label": "delete()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/clone/route.ts",
+      "source_location": "L1",
+      "id": "app_api_pathways_id_clone_route_ts",
+      "community": 0,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/clone/route.ts",
+      "source_location": "L4",
+      "id": "clone_route_post",
+      "community": 0,
+      "norm_label": "post()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/publish/route.ts",
+      "source_location": "L1",
+      "id": "app_api_pathways_id_publish_route_ts",
+      "community": 0,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "PATCH()",
+      "file_type": "code",
+      "source_file": "app/api/pathways/[id]/publish/route.ts",
+      "source_location": "L4",
+      "id": "publish_route_patch",
+      "community": 0,
+      "norm_label": "patch()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/api-docs/page.tsx",
+      "source_location": "L1",
+      "id": "app_api_docs_page_tsx",
+      "community": 13,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "SwaggerUI",
+      "file_type": "code",
+      "source_file": "app/api-docs/page.tsx",
+      "source_location": "L9",
+      "id": "api_docs_page_swaggerui",
+      "community": 13,
+      "norm_label": "swaggerui"
+    },
+    {
+      "label": "ApiDocsPage()",
+      "file_type": "code",
+      "source_file": "app/api-docs/page.tsx",
+      "source_location": "L11",
+      "id": "api_docs_page_apidocspage",
+      "community": 13,
+      "norm_label": "apidocspage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/dashboard/page.tsx",
+      "source_location": "L1",
+      "id": "app_dashboard_page_tsx",
+      "community": 14,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Pathway",
+      "file_type": "code",
+      "source_file": "app/dashboard/page.tsx",
+      "source_location": "L11",
+      "id": "dashboard_page_pathway",
+      "community": 14,
+      "norm_label": "pathway"
+    },
+    {
+      "label": "DashboardPage()",
+      "file_type": "code",
+      "source_file": "app/dashboard/page.tsx",
+      "source_location": "L24",
+      "id": "dashboard_page_dashboardpage",
+      "community": 14,
+      "norm_label": "dashboardpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L1",
+      "id": "app_discover_page_tsx",
+      "community": 8,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "PublicPathway",
+      "file_type": "code",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L10",
+      "id": "discover_page_publicpathway",
+      "community": 8,
+      "norm_label": "publicpathway"
+    },
+    {
+      "label": "difficultyColor",
+      "file_type": "code",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L23",
+      "id": "discover_page_difficultycolor",
+      "community": 8,
+      "norm_label": "difficultycolor"
+    },
+    {
+      "label": "HighlightedText()",
+      "file_type": "code",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L29",
+      "id": "discover_page_highlightedtext",
+      "community": 8,
+      "norm_label": "highlightedtext()"
+    },
+    {
+      "label": "DiscoverPage()",
+      "file_type": "code",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L45",
+      "id": "discover_page_discoverpage",
+      "community": 8,
+      "norm_label": "discoverpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L1",
+      "id": "app_login_page_tsx",
+      "community": 5,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L4",
+      "id": "login_page_metadata",
+      "community": 5,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "LoginPage()",
+      "file_type": "code",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L9",
+      "id": "login_page_loginpage",
+      "community": 5,
+      "norm_label": "loginpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L1",
+      "id": "app_pathways_id_page_tsx",
+      "community": 6,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Resource",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L15",
+      "id": "id_page_resource",
+      "community": 6,
+      "norm_label": "resource"
+    },
+    {
+      "label": "ModuleNode",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L16",
+      "id": "id_page_modulenode",
+      "community": 6,
+      "norm_label": "modulenode"
+    },
+    {
+      "label": "QuizQuestion",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L21",
+      "id": "id_page_quizquestion",
+      "community": 6,
+      "norm_label": "quizquestion"
+    },
+    {
+      "label": "QuizAttempt",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L25",
+      "id": "id_page_quizattempt",
+      "community": 6,
+      "norm_label": "quizattempt"
+    },
+    {
+      "label": "Quiz",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L26",
+      "id": "id_page_quiz",
+      "community": 6,
+      "norm_label": "quiz"
+    },
+    {
+      "label": "Module",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L27",
+      "id": "id_page_module",
+      "community": 6,
+      "norm_label": "module"
+    },
+    {
+      "label": "Pathway",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L32",
+      "id": "id_page_pathway",
+      "community": 6,
+      "norm_label": "pathway"
+    },
+    {
+      "label": "PathwayPage()",
+      "file_type": "code",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L41",
+      "id": "id_page_pathwaypage",
+      "community": 6,
+      "norm_label": "pathwaypage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/register/page.tsx",
+      "source_location": "L1",
+      "id": "app_register_page_tsx",
+      "community": 5,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/register/page.tsx",
+      "source_location": "L4",
+      "id": "register_page_metadata",
+      "community": 5,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RegisterPage()",
+      "file_type": "code",
+      "source_file": "app/register/page.tsx",
+      "source_location": "L9",
+      "id": "register_page_registerpage",
+      "community": 5,
+      "norm_label": "registerpage()"
+    },
+    {
+      "label": "auth-form.tsx",
+      "file_type": "code",
+      "source_file": "components/auth-form.tsx",
+      "source_location": "L1",
+      "id": "components_auth_form_tsx",
+      "community": 5,
+      "norm_label": "auth-form.tsx"
+    },
+    {
+      "label": "AuthFormProps",
+      "file_type": "code",
+      "source_file": "components/auth-form.tsx",
+      "source_location": "L8",
+      "id": "components_auth_form_authformprops",
+      "community": 5,
+      "norm_label": "authformprops"
+    },
+    {
+      "label": "AuthForm()",
+      "file_type": "code",
+      "source_file": "components/auth-form.tsx",
+      "source_location": "L12",
+      "id": "components_auth_form_authform",
+      "community": 5,
+      "norm_label": "authform()"
+    },
+    {
+      "label": "ai-utils.ts",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L1",
+      "id": "lib_ai_utils_ts",
+      "community": 2,
+      "norm_label": "ai-utils.ts"
+    },
+    {
+      "label": "loadLLM()",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L9",
+      "id": "lib_ai_utils_loadllm",
+      "community": 2,
+      "norm_label": "loadllm()"
+    },
+    {
+      "label": "ResourceSchema",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L42",
+      "id": "lib_ai_utils_resourceschema",
+      "community": 2,
+      "norm_label": "resourceschema"
+    },
+    {
+      "label": "ModuleNodeSchema",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L48",
+      "id": "lib_ai_utils_modulenodeschema",
+      "community": 2,
+      "norm_label": "modulenodeschema"
+    },
+    {
+      "label": "ModuleSchema",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L55",
+      "id": "lib_ai_utils_moduleschema",
+      "community": 2,
+      "norm_label": "moduleschema"
+    },
+    {
+      "label": "PathwaySchema",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L61",
+      "id": "lib_ai_utils_pathwayschema",
+      "community": 2,
+      "norm_label": "pathwayschema"
+    },
+    {
+      "label": "PathwayOutput",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L69",
+      "id": "lib_ai_utils_pathwayoutput",
+      "community": 2,
+      "norm_label": "pathwayoutput"
+    },
+    {
+      "label": "QuizQuestionSchema",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L73",
+      "id": "lib_ai_utils_quizquestionschema",
+      "community": 2,
+      "norm_label": "quizquestionschema"
+    },
+    {
+      "label": "QuizSchema",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L80",
+      "id": "lib_ai_utils_quizschema",
+      "community": 2,
+      "norm_label": "quizschema"
+    },
+    {
+      "label": "QuizOutput",
+      "file_type": "code",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L85",
+      "id": "lib_ai_utils_quizoutput",
+      "community": 2,
+      "norm_label": "quizoutput"
+    },
+    {
+      "label": "auth-utils.ts",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L1",
+      "id": "lib_auth_utils_ts",
+      "community": 1,
+      "norm_label": "auth-utils.ts"
+    },
+    {
+      "label": "JWT_SECRET",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L5",
+      "id": "lib_auth_utils_jwt_secret",
+      "community": 1,
+      "norm_label": "jwt_secret"
+    },
+    {
+      "label": "SessionPayload",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L12",
+      "id": "lib_auth_utils_sessionpayload",
+      "community": 1,
+      "norm_label": "sessionpayload"
+    },
+    {
+      "label": "hashPassword()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L21",
+      "id": "lib_auth_utils_hashpassword",
+      "community": 1,
+      "norm_label": "hashpassword()"
+    },
+    {
+      "label": "comparePasswords()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L25",
+      "id": "lib_auth_utils_comparepasswords",
+      "community": 1,
+      "norm_label": "comparepasswords()"
+    },
+    {
+      "label": "createToken()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L34",
+      "id": "lib_auth_utils_createtoken",
+      "community": 1,
+      "norm_label": "createtoken()"
+    },
+    {
+      "label": "verifyToken()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L42",
+      "id": "lib_auth_utils_verifytoken",
+      "community": 1,
+      "norm_label": "verifytoken()"
+    },
+    {
+      "label": "setSessionCookie()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L55",
+      "id": "lib_auth_utils_setsessioncookie",
+      "community": 1,
+      "norm_label": "setsessioncookie()"
+    },
+    {
+      "label": "getSessionFromCookie()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L66",
+      "id": "lib_auth_utils_getsessionfromcookie",
+      "community": 1,
+      "norm_label": "getsessionfromcookie()"
+    },
+    {
+      "label": "clearSessionCookie()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L73",
+      "id": "lib_auth_utils_clearsessioncookie",
+      "community": 11,
+      "norm_label": "clearsessioncookie()"
+    },
+    {
+      "label": "getSessionFromRequest()",
+      "file_type": "code",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L80",
+      "id": "lib_auth_utils_getsessionfromrequest",
+      "community": 1,
+      "norm_label": "getsessionfromrequest()"
+    },
+    {
+      "label": "db.ts",
+      "file_type": "code",
+      "source_file": "lib/db.ts",
+      "source_location": "L1",
+      "id": "lib_db_ts",
+      "community": 0,
+      "norm_label": "db.ts"
+    },
+    {
+      "label": "globalForPrisma",
+      "file_type": "code",
+      "source_file": "lib/db.ts",
+      "source_location": "L4",
+      "id": "lib_db_globalforprisma",
+      "community": 0,
+      "norm_label": "globalforprisma"
+    },
+    {
+      "label": "createPrismaClient()",
+      "file_type": "code",
+      "source_file": "lib/db.ts",
+      "source_location": "L8",
+      "id": "lib_db_createprismaclient",
+      "community": 0,
+      "norm_label": "createprismaclient()"
+    },
+    {
+      "label": "pathway-graph.ts",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L1",
+      "id": "lib_pathway_graph_ts",
+      "community": 2,
+      "norm_label": "pathway-graph.ts"
+    },
+    {
+      "label": "PathwayState",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L18",
+      "id": "lib_pathway_graph_pathwaystate",
+      "community": 2,
+      "norm_label": "pathwaystate"
+    },
+    {
+      "label": "plannerNode()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L41",
+      "id": "lib_pathway_graph_plannernode",
+      "community": 2,
+      "norm_label": "plannernode()"
+    },
+    {
+      "label": "validatorNode()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L87",
+      "id": "lib_pathway_graph_validatornode",
+      "community": 2,
+      "norm_label": "validatornode()"
+    },
+    {
+      "label": "shouldRevise()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L127",
+      "id": "lib_pathway_graph_shouldrevise",
+      "community": 2,
+      "norm_label": "shouldrevise()"
+    },
+    {
+      "label": "buildPathwayGraph()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L137",
+      "id": "lib_pathway_graph_buildpathwaygraph",
+      "community": 2,
+      "norm_label": "buildpathwaygraph()"
+    },
+    {
+      "label": "generatePathway()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L153",
+      "id": "lib_pathway_graph_generatepathway",
+      "community": 2,
+      "norm_label": "generatepathway()"
+    },
+    {
+      "label": "generateQuiz()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L169",
+      "id": "lib_pathway_graph_generatequiz",
+      "community": 7,
+      "norm_label": "generatequiz()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L1",
+      "id": "types_index_ts",
+      "community": 4,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "Resource",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L3",
+      "id": "types_index_resource",
+      "community": 4,
+      "norm_label": "resource"
+    },
+    {
+      "label": "ModuleNodeData",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L9",
+      "id": "types_index_modulenodedata",
+      "community": 4,
+      "norm_label": "modulenodedata"
+    },
+    {
+      "label": "QuizQuestion",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L22",
+      "id": "types_index_quizquestion",
+      "community": 4,
+      "norm_label": "quizquestion"
+    },
+    {
+      "label": "QuizAttemptData",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L29",
+      "id": "types_index_quizattemptdata",
+      "community": 4,
+      "norm_label": "quizattemptdata"
+    },
+    {
+      "label": "QuizData",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L37",
+      "id": "types_index_quizdata",
+      "community": 4,
+      "norm_label": "quizdata"
+    },
+    {
+      "label": "ModuleData",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L45",
+      "id": "types_index_moduledata",
+      "community": 4,
+      "norm_label": "moduledata"
+    },
+    {
+      "label": "PathwayData",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L57",
+      "id": "types_index_pathwaydata",
+      "community": 4,
+      "norm_label": "pathwaydata"
+    },
+    {
+      "label": "UserData",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L71",
+      "id": "types_index_userdata",
+      "community": 4,
+      "norm_label": "userdata"
+    },
+    {
+      "label": "ApiResponse",
+      "file_type": "code",
+      "source_file": "types/index.ts",
+      "source_location": "L78",
+      "id": "types_index_apiresponse",
+      "community": 4,
+      "norm_label": "apiresponse"
+    },
+    {
+      "label": "formatMinutes()",
+      "file_type": "code",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L97",
+      "community": 3,
+      "norm_label": "formatminutes()",
+      "id": "analytics_page_formatminutes"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "proxy.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "proxy_ts",
+      "target": "lib_auth_utils_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "proxy.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "proxy_ts",
+      "target": "lib_auth_utils_verifytoken"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "proxy.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "proxy_ts",
+      "target": "src_proxy_public_routes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "proxy.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "proxy_ts",
+      "target": "src_proxy_api_docs_routes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "proxy.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "proxy_ts",
+      "target": "src_proxy_proxy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "proxy.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "proxy_ts",
+      "target": "src_proxy_config"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "proxy.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "src_proxy_proxy",
+      "target": "lib_auth_utils_verifytoken"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_inter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_rootlayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/loading.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_loading_tsx",
+      "target": "app_loading_loading"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/not-found.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_not_found_tsx",
+      "target": "app_not_found_notfound"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_page_landingpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_page_features"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.tsx",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_page_tsx",
+      "target": "app_page_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_studentoverview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_pathwayprogress"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_quizattemptentry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_studentanalytics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_educatoroverview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_pathwaystat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_educatoranalytics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_analyticsdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_difficultycolor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_statcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_progressbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_scorebar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L170",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_analyticspage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L243",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_studentdashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L409",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_educatordashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_analytics_page_tsx",
+      "target": "analytics_page_formatminutes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/analytics/page.tsx",
+      "source_location": "L261",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analytics_page_studentdashboard",
+      "target": "analytics_page_formatminutes"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "lib_pathway_graph_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "lib_pathway_graph_generatequiz"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "quiz_route_generatequizschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "quiz_route_evaluatequizschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "quiz_route_updatequizschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "quiz_route_post"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L137",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "quiz_route_put"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L200",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_ai_quiz_route_ts",
+      "target": "quiz_route_patch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/ai/quiz/route.ts",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "quiz_route_post",
+      "target": "lib_pathway_graph_generatequiz"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_analytics_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_analytics_route_ts",
+      "target": "analytics_route_get"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_analytics_route_ts",
+      "target": "analytics_route_getstudentanalytics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L166",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_analytics_route_ts",
+      "target": "analytics_route_geteducatoranalytics"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analytics_route_get",
+      "target": "analytics_route_geteducatoranalytics"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/analytics/route.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "analytics_route_get",
+      "target": "analytics_route_getstudentanalytics"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_login_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_login_route_ts",
+      "target": "lib_auth_utils_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_login_route_ts",
+      "target": "lib_auth_utils_comparepasswords"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_login_route_ts",
+      "target": "lib_auth_utils_createtoken"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_login_route_ts",
+      "target": "lib_auth_utils_setsessioncookie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_login_route_ts",
+      "target": "login_route_loginschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_login_route_ts",
+      "target": "login_route_post"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "login_route_post",
+      "target": "lib_auth_utils_comparepasswords"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "login_route_post",
+      "target": "lib_auth_utils_createtoken"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/login/route.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "login_route_post",
+      "target": "lib_auth_utils_setsessioncookie"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_logout_route_ts",
+      "target": "lib_auth_utils_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_logout_route_ts",
+      "target": "lib_auth_utils_clearsessioncookie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_logout_route_ts",
+      "target": "logout_route_post"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_logout_route_ts",
+      "target": "logout_route_get"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/logout/route.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "logout_route_post",
+      "target": "lib_auth_utils_clearsessioncookie"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/me/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_me_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/me/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_me_route_ts",
+      "target": "me_route_get"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_register_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_register_route_ts",
+      "target": "lib_auth_utils_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_register_route_ts",
+      "target": "lib_auth_utils_hashpassword"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_register_route_ts",
+      "target": "lib_auth_utils_createtoken"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_register_route_ts",
+      "target": "lib_auth_utils_setsessioncookie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_register_route_ts",
+      "target": "register_route_registerschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_auth_register_route_ts",
+      "target": "register_route_post"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "register_route_post",
+      "target": "lib_auth_utils_hashpassword"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "register_route_post",
+      "target": "lib_auth_utils_createtoken"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/auth/register/route.ts",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "register_route_post",
+      "target": "lib_auth_utils_setsessioncookie"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/discover/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_discover_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/discover/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_discover_route_ts",
+      "target": "discover_route_get"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/openapi/route.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_openapi_route_ts",
+      "target": "openapi_route_openapispec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/openapi/route.ts",
+      "source_location": "L288",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_openapi_route_ts",
+      "target": "openapi_route_get"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_route_ts",
+      "target": "lib_pathway_graph_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_route_ts",
+      "target": "lib_pathway_graph_generatepathway"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_route_ts",
+      "target": "pathways_route_createpathwayschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_route_ts",
+      "target": "pathways_route_get"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_route_ts",
+      "target": "pathways_route_post"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pathways_route_post",
+      "target": "pathways_route_get"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/api/pathways/route.ts",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "pathways_route_post",
+      "target": "lib_pathway_graph_generatepathway"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/nodes/[id]/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_nodes_id_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/nodes/[id]/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_nodes_id_route_ts",
+      "target": "id_route_updatenodeschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/nodes/[id]/route.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_nodes_id_route_ts",
+      "target": "id_route_patch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_route_ts",
+      "target": "id_route_patch"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "id_route_patch",
+      "target": "id_route_get"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_route_ts",
+      "target": "id_route_updatepathwayschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_route_ts",
+      "target": "id_route_get"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_route_ts",
+      "target": "id_route_delete"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/route.ts",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "id_route_delete",
+      "target": "id_route_get"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/clone/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_clone_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/clone/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_clone_route_ts",
+      "target": "clone_route_post"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/publish/route.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_publish_route_ts",
+      "target": "lib_db_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/pathways/[id]/publish/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_pathways_id_publish_route_ts",
+      "target": "publish_route_patch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api-docs/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_docs_page_tsx",
+      "target": "api_docs_page_swaggerui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api-docs/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_api_docs_page_tsx",
+      "target": "api_docs_page_apidocspage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/dashboard/page.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_dashboard_page_tsx",
+      "target": "dashboard_page_pathway"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/dashboard/page.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_dashboard_page_tsx",
+      "target": "dashboard_page_dashboardpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_discover_page_tsx",
+      "target": "discover_page_publicpathway"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_discover_page_tsx",
+      "target": "discover_page_difficultycolor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_discover_page_tsx",
+      "target": "discover_page_highlightedtext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/discover/page.tsx",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_discover_page_tsx",
+      "target": "discover_page_discoverpage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_login_page_tsx",
+      "target": "components_auth_form_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_login_page_tsx",
+      "target": "login_page_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/login/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_login_page_tsx",
+      "target": "login_page_loginpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_resource"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_modulenode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_quizquestion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_quizattempt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_quiz"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_module"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_pathway"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/pathways/[id]/page.tsx",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_pathways_id_page_tsx",
+      "target": "id_page_pathwaypage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/register/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_register_page_tsx",
+      "target": "components_auth_form_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/register/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_register_page_tsx",
+      "target": "register_page_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/register/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_register_page_tsx",
+      "target": "register_page_registerpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/auth-form.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_auth_form_tsx",
+      "target": "components_auth_form_authformprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/auth-form.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_auth_form_tsx",
+      "target": "components_auth_form_authform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_loadllm"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_resourceschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_modulenodeschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_moduleschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_pathwayschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_pathwayoutput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_quizquestionschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_quizschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/ai-utils.ts",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_ai_utils_ts",
+      "target": "lib_ai_utils_quizoutput"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_ai_utils_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_ai_utils_loadllm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_plannernode",
+      "target": "lib_ai_utils_loadllm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_generatequiz",
+      "target": "lib_ai_utils_loadllm"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_ai_utils_pathwayschema"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_ai_utils_pathwayoutput"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_ai_utils_quizschema"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_ai_utils_quizoutput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_jwt_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_sessionpayload"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_hashpassword"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_comparepasswords"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_createtoken"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_verifytoken"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_setsessioncookie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_getsessionfromcookie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_clearsessioncookie"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_ts",
+      "target": "lib_auth_utils_getsessionfromrequest"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_getsessionfromcookie",
+      "target": "lib_auth_utils_verifytoken"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/auth-utils.ts",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_auth_utils_getsessionfromrequest",
+      "target": "lib_auth_utils_verifytoken"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/db.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_db_ts",
+      "target": "lib_db_globalforprisma"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/db.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_db_ts",
+      "target": "lib_db_createprismaclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_pathwaystate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_plannernode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_validatornode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L123",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_shouldrevise"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_buildpathwaygraph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_generatepathway"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L165",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_generatequiz"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L153",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "lib_pathway_graph_generatepathway",
+      "target": "lib_pathway_graph_buildpathwaygraph"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_resource"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_modulenodedata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_quizquestion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_quizattemptdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_quizdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_moduledata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_pathwaydata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_userdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "types/index.ts",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "types_index_ts",
+      "target": "types_index_apiresponse"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "a6053cad5789e750eb077322c28fa433de363b58"
+}
