@@ -1,6 +1,7 @@
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { ChatOpenAI } from "@langchain/openai";
 import { ChatGroq } from "@langchain/groq";
+import { ChatOllama } from "@langchain/ollama";
 import { BaseChatModel } from "@langchain/core/language_models/chat_models";
 import { z } from "zod";
 
@@ -24,6 +25,17 @@ export function loadLLM(temperature = 0.2): BaseChatModel {
         model: "llama-3.3-70b-versatile",
         temperature,
         apiKey: process.env.GROQ_API_KEY,
+      }) as unknown as BaseChatModel;
+
+    case "ollama":
+      if (!process.env.OLLAMA_API_KEY) throw new Error("OLLAMA_API_KEY not set");
+      return new ChatOllama({
+        baseUrl: "https://ollama.com",
+        model: "gemma4:31b-cloud",
+        temperature,
+        headers: {
+          Authorization: `Bearer ${process.env.OLLAMA_API_KEY}`,
+        }
       }) as unknown as BaseChatModel;
 
     case "google":
