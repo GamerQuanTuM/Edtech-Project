@@ -162,7 +162,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L1",
       "id": "app_analytics_page_tsx",
-      "community": 3,
+      "community": 2,
       "norm_label": "page.tsx"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L15",
       "id": "analytics_page_studentoverview",
-      "community": 3,
+      "community": 2,
       "norm_label": "studentoverview"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L28",
       "id": "analytics_page_pathwayprogress",
-      "community": 3,
+      "community": 2,
       "norm_label": "pathwayprogress"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L38",
       "id": "analytics_page_quizattemptentry",
-      "community": 3,
+      "community": 2,
       "norm_label": "quizattemptentry"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L44",
       "id": "analytics_page_studentanalytics",
-      "community": 3,
+      "community": 2,
       "norm_label": "studentanalytics"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L52",
       "id": "analytics_page_educatoroverview",
-      "community": 3,
+      "community": 2,
       "norm_label": "educatoroverview"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L63",
       "id": "analytics_page_pathwaystat",
-      "community": 3,
+      "community": 2,
       "norm_label": "pathwaystat"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L77",
       "id": "analytics_page_educatoranalytics",
-      "community": 3,
+      "community": 2,
       "norm_label": "educatoranalytics"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L86",
       "id": "analytics_page_analyticsdata",
-      "community": 3,
+      "community": 2,
       "norm_label": "analyticsdata"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L90",
       "id": "analytics_page_difficultycolor",
-      "community": 3,
+      "community": 2,
       "norm_label": "difficultycolor"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L97",
       "id": "analytics_page_statcard",
-      "community": 3,
+      "community": 2,
       "norm_label": "statcard()"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L134",
       "id": "analytics_page_progressbar",
-      "community": 3,
+      "community": 2,
       "norm_label": "progressbar()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L145",
       "id": "analytics_page_scorebar",
-      "community": 3,
+      "community": 2,
       "norm_label": "scorebar()"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L163",
       "id": "analytics_page_analyticspage",
-      "community": 3,
+      "community": 2,
       "norm_label": "analyticspage()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L236",
       "id": "analytics_page_studentdashboard",
-      "community": 3,
+      "community": 2,
       "norm_label": "studentdashboard()"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "app/analytics/page.tsx",
       "source_location": "L401",
       "id": "analytics_page_educatordashboard",
-      "community": 3,
+      "community": 2,
       "norm_label": "educatordashboard()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "app/api/ai/quiz/route.ts",
       "source_location": "L1",
       "id": "app_api_ai_quiz_route_ts",
-      "community": 7,
+      "community": 0,
       "norm_label": "route.ts"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "app/api/ai/quiz/route.ts",
       "source_location": "L6",
       "id": "quiz_route_generatequizschema",
-      "community": 7,
+      "community": 0,
       "norm_label": "generatequizschema"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "app/api/ai/quiz/route.ts",
       "source_location": "L10",
       "id": "quiz_route_evaluatequizschema",
-      "community": 7,
+      "community": 0,
       "norm_label": "evaluatequizschema"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "app/api/ai/quiz/route.ts",
       "source_location": "L15",
       "id": "quiz_route_updatequizschema",
-      "community": 7,
+      "community": 0,
       "norm_label": "updatequizschema"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "app/api/ai/quiz/route.ts",
       "source_location": "L51",
       "id": "quiz_route_post",
-      "community": 7,
+      "community": 0,
       "norm_label": "post()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "app/api/ai/quiz/route.ts",
       "source_location": "L137",
       "id": "quiz_route_put",
-      "community": 7,
+      "community": 0,
       "norm_label": "put()"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "app/api/ai/quiz/route.ts",
       "source_location": "L200",
       "id": "quiz_route_patch",
-      "community": 7,
+      "community": 0,
       "norm_label": "patch()"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "app/api/analytics/route.ts",
       "source_location": "L1",
       "id": "app_api_analytics_route_ts",
-      "community": 0,
+      "community": 11,
       "norm_label": "route.ts"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "app/api/analytics/route.ts",
       "source_location": "L16",
       "id": "analytics_route_get",
-      "community": 0,
+      "community": 11,
       "norm_label": "get()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "app/api/analytics/route.ts",
       "source_location": "L29",
       "id": "analytics_route_getstudentanalytics",
-      "community": 0,
+      "community": 11,
       "norm_label": "getstudentanalytics()"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "app/api/analytics/route.ts",
       "source_location": "L160",
       "id": "analytics_route_geteducatoranalytics",
-      "community": 0,
+      "community": 11,
       "norm_label": "geteducatoranalytics()"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "app/api/auth/logout/route.ts",
       "source_location": "L1",
       "id": "app_api_auth_logout_route_ts",
-      "community": 11,
+      "community": 1,
       "norm_label": "route.ts"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "app/api/auth/logout/route.ts",
       "source_location": "L14",
       "id": "logout_route_post",
-      "community": 11,
+      "community": 1,
       "norm_label": "post()"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "app/api/auth/logout/route.ts",
       "source_location": "L32",
       "id": "logout_route_get",
-      "community": 11,
+      "community": 1,
       "norm_label": "get()"
     },
     {
@@ -459,7 +459,7 @@
       "source_file": "app/api/auth/me/route.ts",
       "source_location": "L1",
       "id": "app_api_auth_me_route_ts",
-      "community": 0,
+      "community": 3,
       "norm_label": "route.ts"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "app/api/auth/me/route.ts",
       "source_location": "L4",
       "id": "me_route_get",
-      "community": 0,
+      "community": 3,
       "norm_label": "get()"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "app/api/discover/route.ts",
       "source_location": "L1",
       "id": "app_api_discover_route_ts",
-      "community": 0,
+      "community": 3,
       "norm_label": "route.ts"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "app/api/discover/route.ts",
       "source_location": "L4",
       "id": "discover_route_get",
-      "community": 0,
+      "community": 3,
       "norm_label": "get()"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "app/api/pathways/route.ts",
       "source_location": "L1",
       "id": "app_api_pathways_route_ts",
-      "community": 2,
+      "community": 3,
       "norm_label": "route.ts"
     },
     {
@@ -558,7 +558,7 @@
       "source_file": "app/api/pathways/route.ts",
       "source_location": "L6",
       "id": "pathways_route_createpathwayschema",
-      "community": 2,
+      "community": 3,
       "norm_label": "createpathwayschema"
     },
     {
@@ -567,7 +567,7 @@
       "source_file": "app/api/pathways/route.ts",
       "source_location": "L51",
       "id": "pathways_route_get",
-      "community": 2,
+      "community": 3,
       "norm_label": "get()"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "app/api/pathways/route.ts",
       "source_location": "L86",
       "id": "pathways_route_post",
-      "community": 2,
+      "community": 3,
       "norm_label": "post()"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "app/api/pathways/nodes/[id]/route.ts",
       "source_location": "L1",
       "id": "app_api_pathways_nodes_id_route_ts",
-      "community": 0,
+      "community": 7,
       "norm_label": "route.ts"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "app/api/pathways/nodes/[id]/route.ts",
       "source_location": "L5",
       "id": "id_route_updatenodeschema",
-      "community": 0,
+      "community": 7,
       "norm_label": "updatenodeschema"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "app/api/pathways/[id]/route.ts",
       "source_location": "L110",
       "id": "id_route_patch",
-      "community": 0,
+      "community": 7,
       "norm_label": "patch()"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "app/api/pathways/[id]/route.ts",
       "source_location": "L1",
       "id": "app_api_pathways_id_route_ts",
-      "community": 0,
+      "community": 7,
       "norm_label": "route.ts"
     },
     {
@@ -621,7 +621,7 @@
       "source_file": "app/api/pathways/[id]/route.ts",
       "source_location": "L5",
       "id": "id_route_updatepathwayschema",
-      "community": 0,
+      "community": 7,
       "norm_label": "updatepathwayschema"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "app/api/pathways/[id]/route.ts",
       "source_location": "L61",
       "id": "id_route_get",
-      "community": 0,
+      "community": 7,
       "norm_label": "get()"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "app/api/pathways/[id]/route.ts",
       "source_location": "L141",
       "id": "id_route_delete",
-      "community": 0,
+      "community": 7,
       "norm_label": "delete()"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "app/api/pathways/[id]/clone/route.ts",
       "source_location": "L1",
       "id": "app_api_pathways_id_clone_route_ts",
-      "community": 0,
+      "community": 3,
       "norm_label": "route.ts"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "app/api/pathways/[id]/clone/route.ts",
       "source_location": "L4",
       "id": "clone_route_post",
-      "community": 0,
+      "community": 3,
       "norm_label": "post()"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "app/api/pathways/[id]/publish/route.ts",
       "source_location": "L1",
       "id": "app_api_pathways_id_publish_route_ts",
-      "community": 0,
+      "community": 3,
       "norm_label": "route.ts"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "app/api/pathways/[id]/publish/route.ts",
       "source_location": "L4",
       "id": "publish_route_patch",
-      "community": 0,
+      "community": 3,
       "norm_label": "patch()"
     },
     {
@@ -945,88 +945,88 @@
       "source_file": "lib/ai-utils.ts",
       "source_location": "L1",
       "id": "lib_ai_utils_ts",
-      "community": 2,
+      "community": 0,
       "norm_label": "ai-utils.ts"
     },
     {
       "label": "loadLLM()",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L9",
+      "source_location": "L10",
       "id": "lib_ai_utils_loadllm",
-      "community": 2,
+      "community": 0,
       "norm_label": "loadllm()"
     },
     {
       "label": "ResourceSchema",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L42",
+      "source_location": "L54",
       "id": "lib_ai_utils_resourceschema",
-      "community": 2,
+      "community": 0,
       "norm_label": "resourceschema"
     },
     {
       "label": "ModuleNodeSchema",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L48",
+      "source_location": "L60",
       "id": "lib_ai_utils_modulenodeschema",
-      "community": 2,
+      "community": 0,
       "norm_label": "modulenodeschema"
     },
     {
       "label": "ModuleSchema",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L55",
+      "source_location": "L67",
       "id": "lib_ai_utils_moduleschema",
-      "community": 2,
+      "community": 0,
       "norm_label": "moduleschema"
     },
     {
       "label": "PathwaySchema",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L61",
+      "source_location": "L73",
       "id": "lib_ai_utils_pathwayschema",
-      "community": 2,
+      "community": 0,
       "norm_label": "pathwayschema"
     },
     {
       "label": "PathwayOutput",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L69",
+      "source_location": "L81",
       "id": "lib_ai_utils_pathwayoutput",
-      "community": 2,
+      "community": 0,
       "norm_label": "pathwayoutput"
     },
     {
       "label": "QuizQuestionSchema",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L73",
+      "source_location": "L85",
       "id": "lib_ai_utils_quizquestionschema",
-      "community": 2,
+      "community": 0,
       "norm_label": "quizquestionschema"
     },
     {
       "label": "QuizSchema",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L80",
+      "source_location": "L92",
       "id": "lib_ai_utils_quizschema",
-      "community": 2,
+      "community": 0,
       "norm_label": "quizschema"
     },
     {
       "label": "QuizOutput",
       "file_type": "code",
       "source_file": "lib/ai-utils.ts",
-      "source_location": "L85",
+      "source_location": "L97",
       "id": "lib_ai_utils_quizoutput",
-      "community": 2,
+      "community": 0,
       "norm_label": "quizoutput"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_file": "lib/auth-utils.ts",
       "source_location": "L73",
       "id": "lib_auth_utils_clearsessioncookie",
-      "community": 11,
+      "community": 1,
       "norm_label": "clearsessioncookie()"
     },
     {
@@ -1134,7 +1134,7 @@
       "source_file": "lib/db.ts",
       "source_location": "L1",
       "id": "lib_db_ts",
-      "community": 0,
+      "community": 3,
       "norm_label": "db.ts"
     },
     {
@@ -1143,7 +1143,7 @@
       "source_file": "lib/db.ts",
       "source_location": "L4",
       "id": "lib_db_globalforprisma",
-      "community": 0,
+      "community": 3,
       "norm_label": "globalforprisma"
     },
     {
@@ -1152,7 +1152,7 @@
       "source_file": "lib/db.ts",
       "source_location": "L8",
       "id": "lib_db_createprismaclient",
-      "community": 0,
+      "community": 3,
       "norm_label": "createprismaclient()"
     },
     {
@@ -1161,70 +1161,106 @@
       "source_file": "lib/pathway-graph.ts",
       "source_location": "L1",
       "id": "lib_pathway_graph_ts",
-      "community": 2,
+      "community": 0,
       "norm_label": "pathway-graph.ts"
+    },
+    {
+      "label": "extractJSON()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L18",
+      "id": "lib_pathway_graph_extractjson",
+      "community": 0,
+      "norm_label": "extractjson()"
+    },
+    {
+      "label": "transformToPathway()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L25",
+      "id": "lib_pathway_graph_transformtopathway",
+      "community": 0,
+      "norm_label": "transformtopathway()"
+    },
+    {
+      "label": "parseDuration()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L61",
+      "id": "lib_pathway_graph_parseduration",
+      "community": 0,
+      "norm_label": "parseduration()"
+    },
+    {
+      "label": "normalizeResourceType()",
+      "file_type": "code",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L67",
+      "id": "lib_pathway_graph_normalizeresourcetype",
+      "community": 0,
+      "norm_label": "normalizeresourcetype()"
     },
     {
       "label": "PathwayState",
       "file_type": "code",
       "source_file": "lib/pathway-graph.ts",
-      "source_location": "L18",
+      "source_location": "L79",
       "id": "lib_pathway_graph_pathwaystate",
-      "community": 2,
+      "community": 0,
       "norm_label": "pathwaystate"
     },
     {
       "label": "plannerNode()",
       "file_type": "code",
       "source_file": "lib/pathway-graph.ts",
-      "source_location": "L41",
+      "source_location": "L102",
       "id": "lib_pathway_graph_plannernode",
-      "community": 2,
+      "community": 0,
       "norm_label": "plannernode()"
     },
     {
       "label": "validatorNode()",
       "file_type": "code",
       "source_file": "lib/pathway-graph.ts",
-      "source_location": "L87",
+      "source_location": "L180",
       "id": "lib_pathway_graph_validatornode",
-      "community": 2,
+      "community": 0,
       "norm_label": "validatornode()"
     },
     {
       "label": "shouldRevise()",
       "file_type": "code",
       "source_file": "lib/pathway-graph.ts",
-      "source_location": "L127",
+      "source_location": "L220",
       "id": "lib_pathway_graph_shouldrevise",
-      "community": 2,
+      "community": 0,
       "norm_label": "shouldrevise()"
     },
     {
       "label": "buildPathwayGraph()",
       "file_type": "code",
       "source_file": "lib/pathway-graph.ts",
-      "source_location": "L137",
+      "source_location": "L230",
       "id": "lib_pathway_graph_buildpathwaygraph",
-      "community": 2,
+      "community": 3,
       "norm_label": "buildpathwaygraph()"
     },
     {
       "label": "generatePathway()",
       "file_type": "code",
       "source_file": "lib/pathway-graph.ts",
-      "source_location": "L153",
+      "source_location": "L246",
       "id": "lib_pathway_graph_generatepathway",
-      "community": 2,
+      "community": 3,
       "norm_label": "generatepathway()"
     },
     {
       "label": "generateQuiz()",
       "file_type": "code",
       "source_file": "lib/pathway-graph.ts",
-      "source_location": "L169",
+      "source_location": "L262",
       "id": "lib_pathway_graph_generatequiz",
-      "community": 7,
+      "community": 0,
       "norm_label": "generatequiz()"
     },
     {
@@ -1322,7 +1358,7 @@
       "file_type": "code",
       "source_file": "app/analytics/page.tsx",
       "source_location": "L97",
-      "community": 3,
+      "community": 2,
       "norm_label": "formatminutes()",
       "id": "analytics_page_formatminutes"
     }
@@ -2949,6 +2985,46 @@
       "source_file": "lib/pathway-graph.ts",
       "source_location": "L18",
       "weight": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_extractjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_transformtopathway",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_parseduration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_ts",
+      "target": "lib_pathway_graph_normalizeresourcetype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L18",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "lib_pathway_graph_ts",
       "target": "lib_pathway_graph_pathwaystate"
@@ -3012,6 +3088,39 @@
       "confidence_score": 1.0,
       "source": "lib_pathway_graph_ts",
       "target": "lib_pathway_graph_generatequiz"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L163",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_plannernode",
+      "target": "lib_pathway_graph_extractjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L289",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_generatequiz",
+      "target": "lib_pathway_graph_extractjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/pathway-graph.ts",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "lib_pathway_graph_plannernode",
+      "target": "lib_pathway_graph_transformtopathway",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -3116,5 +3225,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fef962d5edb511a43c6f6ebed2687572fd00c274"
+  "built_at_commit": "f7e082103e28c7fc73b7a236f5796b584613c636"
 }
